@@ -1,0 +1,34 @@
+<div class="stat-grid">
+  <div class="stat" data-label="Strength" data-rank="A" data-segments="5" data-filled="4"></div>
+  <div class="stat" data-label="Endurance" data-rank="A" data-segments="5" data-filled="4"></div>
+  <div class="stat" data-label="Dexterity" data-rank="D" data-segments="5" data-filled="2"></div>
+  <div class="stat" data-label="Mana" data-rank="???" data-segments="5" data-filled="0"></div>
+  <div id="EXluck" class="stat" data-label="Luck" data-rank="EX" data-segments="5" data-filled="5"></div>
+  <div class="stat" data-label="Soul Essence" data-rank="B" data-segments="5" data-filled="3"></div>
+</div>
+
+<!-- 
+PROFILE.TXT FORMAT:
+Add class="status-hidden" to the Status <li> to hide it with hover effect
+
+Example:
+<ul>
+  <li><strong>Alias:</strong> Onizō, The Shura of Ashina</li>
+  <li><strong>Origin:</strong> Ashina - Fukuwa Province</li>
+  <li><strong>Alignment:</strong> Chaotic Neutral</li>
+  <li><strong>Affiliation:</strong> None (Formerly Ashina Clan)</li>
+  <li><strong>Age:</strong> Unknown (Appears 28)</li>
+  <li><strong>Height:</strong> 182 cm</li>
+  <li><strong>Weight:</strong> 78 kg</li>
+  <li class="status-hidden"><strong>Status:</strong> Deceased</li>
+</ul>
+
+Rank Guide:
+EX = 5 filled
+A+ = 5 filled
+A  = 4 filled
+B  = 3 filled
+C  = 2-3 filled
+D  = 1-2 filled
+E  = 1 filled
+-->

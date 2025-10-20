@@ -1,0 +1,14 @@
+<h3>Human Form (Miyamoto Kenjiro)</h3>
+<ul>
+  <li>"Your sword work shows promise, young warrior. Though I notice a slight hesitation in your killing stroke—perhaps we could discuss proper form over tea?"</li>
+  <li>"Combat is like poetry, each movement a carefully chosen word. The most beautiful verses end in death, don't you think?"</li>
+  <li>"I find myself curious about your technique. Would you honor me with a demonstration? I promise to provide... constructive criticism."</li>
+</ul>
+
+<h3>Demon Form (Onizō)</h3>
+<ul>
+  <li>"Twilight's Peak... how it sings when wielded with proper killing intent! Your father taught it such beautiful songs of death."</li>
+  <li>"You fight like you're trying to protect something. How quaint. True strength comes from embracing the joy of destruction, the ecstasy of watching hope die in your opponent's eyes."</li>
+  <li>"Each cut should be perfect, each death a masterpiece painted in blood and flame. Anything less is disrespectful to the art of violence."</li>
+  <li>"Welcome to my world, young warrior—a place where the crimson moon never sets and the only truth is the edge of a blade."</li>
+</ul>

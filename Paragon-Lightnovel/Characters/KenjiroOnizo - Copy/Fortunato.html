@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Name - Paragon Wikia</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">← Back to Wiki</a>
+    <a href="#characters">Characters</a>
+    <a href="#story">Story Arcs</a>
+    <a href="#world">World</a>
+  </nav>
+
+  <div class="container">
+    <!-- Character Header -->
+    <div class="character-header">
+      <h1 class="character-name">Fortunato</h1>
+      <p class="subtitle">"Heaven's Lucky Gambler"</p>
+    </div>
+
+    <!-- Main Content Grid: Portrait + Profile -->
+    <div class="main-content">
+      <!-- Portrait Section (NO TOGGLE BUTTON) -->
+      <div class="portrait-section">
+        <div class="portrait-container">
+          <div class="portrait-placeholder">
+            <img src="images/fortunato.png" alt="Character Portrait" class="portrait-img">
+          </div>
+        </div>
+        <!-- NO FORM TOGGLE BUTTON HERE -->
+      </div>
+
+      <!-- Info Box -->
+      <div class="info-box">
+        <h2>Basic Information</h2>
+        <div data-section="profile">Loading profile...</div>
+      </div>
+    </div>
+
+    <!-- Parameters (Full Width Below) -->
+    <div class="parameters">
+      <h2>Parameters</h2>
+      <div data-section="stats">Loading stats...</div>
+    </div>
+
+    <!-- Background -->
+    <div class="content-section">
+      <h2>Background & Lore</h2>
+      <div data-section="background">Loading background...</div>
+    </div>
+
+    <!-- Appearance -->
+    <div class="content-section">
+      <h2>Appearance</h2>
+      <div data-section="appearance">Loading appearance...</div>
+    </div>
+
+    <!-- Abilities -->
+    <div class="content-section">
+      <h2>Abilities</h2>
+      <div data-section="abilities">Loading abilities...</div>
+    </div>
+
+    <!-- Character Personality -->
+    <div class="content-section">
+      <h2>Character Personality</h2>
+      <div data-section="personality">Loading personality...</div>
+    </div>
+
+    <!-- Notable Traits -->
+    <div class="content-section">
+      <h2>Notable Traits</h2>
+      <div data-section="traits">Loading traits...</div>
+    </div>
+
+    <!-- Relationships -->
+    <div class="content-section">
+      <h2>Relationships</h2>
+      <div data-section="relationships">Loading relationships...</div>
+    </div>
+
+    <!-- Speech Patterns/Mannerisms -->
+    <div class="content-section">
+      <h2>Speech Patterns & Mannerisms</h2>
+      <div data-section="speech">Loading speech patterns...</div>
+    </div>
+
+    <!-- Sample Dialogue -->
+    <div class="content-section">
+      <h2>Sample Dialogue</h2>
+      <div data-section="dialogue">Loading dialogue...</div>
+    </div>
+
+    <!-- Character Motivations -->
+    <div class="content-section">
+      <h2>Character Motivations</h2>
+      <div data-section="motivations">Loading motivations...</div>
+    </div>
+
+    <!-- Trivia -->
+    <div class="content-section">
+      <h2>Trivia</h2>
+      <div data-section="trivia">Loading trivia...</div>
+    </div>
+
+    <!-- Gallery Carousel -->
+    <div class="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-carousel">
+        <div class="carousel-viewport">
+          <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-slide">
+              <img src="images/character1.png" alt="Gallery Image 1" class="carousel-image">
+            </div>
+            <div class="carousel-slide">
+              <img src="images/character2.png" alt="Gallery Image 2" class="carousel-image">
+            </div>
+            <div class="carousel-slide">
+              <img src="images/character3.png" alt="Gallery Image 3" class="carousel-image">
+            </div>
+          </div>
+        </div>
+        
+        <button class="carousel-nav prev" onclick="moveCarousel(-1)">‹</button>
+        <button class="carousel-nav next" onclick="moveCarousel(1)">›</button>
+        
+        <div class="carousel-indicators" id="carouselIndicators"></div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">×</button>
+  <div class="lightbox-content">
+    <img src="" alt="Lightbox" id="lightboxImg">
+  </div>
+</div>
+
+  <script src="js/loader.js"></script>
+  <script src="js/carousel.js"></script>
+</body>
+</html>

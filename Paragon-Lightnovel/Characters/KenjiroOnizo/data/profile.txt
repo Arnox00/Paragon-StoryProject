@@ -1,0 +1,12 @@
+<ul>
+  <li><strong>Alias:</strong> Onizō, The Shura of Ashina</li>
+  <li><strong>Origin:</strong> Ashina - Fukuwa Province</li>
+  <li><strong>Alignment:</strong> Chaotic Neutral</li>
+  <li><strong>Affiliation:</strong> None (Formerly Ashina Clan)</li>
+  <li><strong>Age:</strong> Unknown (Appears 28)</li>
+  <li><strong>Gender:</strong>Male</li>
+   <li><strong>Classification:</strong> Human,Demon</li>
+  <li><strong>Height:</strong> 182 cm</li>
+  <li><strong>Weight:</strong> 78 kg</li>
+  <li class="status-hidden"><strong>Status:</strong> Deceased</li>
+</ul>

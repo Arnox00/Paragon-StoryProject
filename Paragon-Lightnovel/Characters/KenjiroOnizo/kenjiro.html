@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miyamoto Kenjiro / Onizō - Paragon Wikia</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+<!-- ===== Sidebar Navigation (replaces top navbar) ===== -->
+<div id="sidebar" class="sidebar">
+  <div class="sidebar-header">
+    <h2>☰ Menu</h2>
+  </div>
+  <ul class="sidebar-nav">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../characters.html">Characters</a></li>
+    <li><a href="../factions.html">Factions</a></li>
+    <li><a href="../lore.html">Lore</a></li>
+  </ul>
+</div>
+
+<!-- Toggle Button (stays visible) -->
+<div id="sidebarToggle1"
+  <button class="sidebar-toggle"></button>
+</div>
+
+
+  <div class="container">
+    <!-- Character Header -->
+    <div class="character-header">
+      <h1 class="character-name">MIYAMOTO KENJIRO / ONIZŌ</h1>
+      <p class="subtitle">"The Shura of Ashina"</p>
+    </div>
+
+    <!-- Main Content Grid: Portrait + Profile -->
+    <div class="main-content">
+      <!-- Portrait Section -->
+      <div class="portrait-section">
+        <div class="portrait-container">
+          <div class="portrait-placeholder">
+            <img src="images/Kenjiro.png" alt="Kenjiro Form" class="portrait-img" id="humanForm">
+            <img src="images/Onizoo.png" alt="Onizō Form" class="portrait-img" id="oniForm" style="display:none;">
+          </div>
+        </div>
+        <button class="form-toggle">Switch to Onizō Form</button>
+      </div>
+
+      <!-- Info Box -->
+      <div class="info-box">
+        <h2>Profile</h2>
+        <div data-section="profile">Loading profile...</div>
+      </div>
+    </div>
+
+    <!-- Parameters (Full Width Below) -->
+    <div class="parameters">
+      <h2>Parameters</h2>
+      <div data-section="stats">Loading stats...</div>
+    </div>
+
+    <!-- Background -->
+    <div class="content-section">
+      <h2>Background & Lore</h2>
+      <div data-section="background">Loading background...</div>
+    </div>
+
+    <!-- Appearance -->
+    <div class="content-section">
+      <h2>Appearance</h2>
+      <div data-section="appearance">Loading appearance...</div>
+    </div>
+
+    <!-- Abilities -->
+    <div class="content-section">
+      <h2>Abilities</h2>
+      <div data-section="abilities">Loading abilities...</div>
+    </div>
+
+    <!-- Character Personality -->
+    <div class="content-section">
+      <h2>Character Personality</h2>
+      <div data-section="personality">Loading personality...</div>
+    </div>
+
+    <!-- Relationships -->
+    <div class="content-section">
+      <h2>Relationships</h2>
+      <div data-section="relationships">Loading relationships...</div>
+    </div>
+
+    <!-- Speech Patterns/Mannerisms -->
+    <div class="content-section">
+      <h2>Speech Patterns & Mannerisms</h2>
+      <div data-section="speech">Loading speech patterns...</div>
+    </div>
+
+    <!-- Sample Dialogue -->
+    <div class="content-section">
+      <h2>Sample Dialogue</h2>
+      <div data-section="dialogue">Loading dialogue...</div>
+    </div>
+
+    <!-- Character Motivations -->
+    <div class="content-section">
+      <h2>Character Motivations</h2>
+      <div data-section="motivations">Loading motivations...</div>
+    </div>
+
+    <!-- Trivia -->
+    <div class="content-section">
+      <h2>Trivia</h2>
+      <div data-section="trivia">Loading trivia...</div>
+    </div>
+
+    <!-- Gallery Carousel -->
+    <div class="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-carousel">
+        <div class="carousel-viewport">
+          <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-slide">
+              <img src="images/Kenjiro.png" alt="Gallery Image 1" class="carousel-image">
+            </div>
+            <div class="carousel-slide">
+              <img src="images/Onizoo.png" alt="Gallery Image 2" class="carousel-image">
+            </div>
+            <div class="carousel-slide">
+              <img src="images/Kenjiro.png" alt="Gallery Image 3" class="carousel-image">
+            </div>
+          </div>
+        </div>
+        
+        <button class="carousel-nav prev" id="prevBtn">‹</button>
+        <button class="carousel-nav next" id="nextBtn">›</button>
+        
+        <div class="carousel-indicators" id="carouselIndicators"></div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+    <div class="lightbox-content" id="lightboxContent">
+      <button class="lightbox-close" id="lightboxClose">×</button>
+      <img src="./images/Onizoo.png" alt="Lightbox Preview" id="lightboxImg">
+    </div>
+  </div>
+
+  <script src="js/loader.js"></script>
+  <script src="js/carousel.js"></script>
+    <script src="js/sidebar.js"></script>
+</body>
+</html>
